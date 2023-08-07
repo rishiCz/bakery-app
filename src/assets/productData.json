@@ -1,0 +1,104 @@
+
+[
+    {
+      "productImage": "https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_1000/74421_belgium-chocolate-truffle-cake.jpeg",
+      "productName": "Square Choco",
+      "productPrice": 10.99
+    },
+    {
+      "productImage": "https://sallysbakingaddiction.com/wp-content/uploads/2013/04/triple-chocolate-cake-4.jpg",
+      "productName": "Chocolate cake",
+      "productPrice": 19.99
+    },
+    {
+      "productImage": "https://imgcdn.floweraura.com/hearty-anniversary-cake-9831540ca-A_0.jpg",
+      "productName": "Heart Dark Cake",
+      "productPrice": 7.49
+    },
+    {
+      "productImage": "https://thefirstyearblog.com/wp-content/uploads/2015/11/chocolate-chocolate-cake-1.png",
+      "productName": "Choco Castle",
+      "productPrice": 14.95
+    },
+    {
+      "productImage": "https://pic.warmoven.in/catalog/product/cache/4e14bcb566d25893ae7201d4dbdc22fd/image/22488f4e/oreo-cake.jpg",
+      "productName": "Oreo Cake",
+      "productPrice": 29.99
+    },
+    {
+      "productImage": "https://insanelygoodrecipes.com/wp-content/uploads/2022/05/Sweet-Homemade-Chocolate-Ice-Cream-Cake-500x500.jpg",
+      "productName": "Oreo Nuts Cake",
+      "productPrice": 5.99
+    },
+    {
+      "productImage": "https://img.cake24x7.com/writable/apps/cake24x7/ProductGallery/5757/Everything-Is-Chocolate-Cake.jpg",
+      "productName": "Chocolate Bar Cake",
+      "productPrice": 8.75
+    },
+    {
+      "productImage": "https://bakewithshivesh.com/wp-content/uploads/2021/07/IMG_0745-scaled.jpg",
+      "productName": "Vanilla Cherry",
+      "productPrice": 12.50
+    },
+    {
+      "productImage": "https://veenaazmanov.com/wp-content/uploads/2020/01/Mille-Feuille-Napoleon-Dessert1.jpg",
+      "productName": "BlueBerry Pastry",
+      "productPrice": 16.99
+    },
+    {
+      "productImage": "https://cremecastle.in/cdn/shop/products/D0014_1.jpg?v=1670470891&width=1100",
+      "productName": "Quad Pie",
+      "productPrice": 22.00
+    },
+    {
+      "productImage": "image-url-11.jpg",
+      "productName": "Product 11",
+      "productPrice": 9.99
+    },
+    {
+      "productImage": "image-url-12.jpg",
+      "productName": "Product 12",
+      "productPrice": 18.49
+    },
+    {
+      "productImage": "image-url-13.jpg",
+      "productName": "Product 13",
+      "productPrice": 13.75
+    },
+    {
+      "productImage": "image-url-14.jpg",
+      "productName": "Product 14",
+      "productPrice": 24.95
+    },
+    {
+      "productImage": "image-url-15.jpg",
+      "productName": "Product 15",
+      "productPrice": 6.50
+    },
+    {
+      "productImage": "image-url-16.jpg",
+      "productName": "Product 16",
+      "productPrice": 11.25
+    },
+    {
+      "productImage": "image-url-17.jpg",
+      "productName": "Product 17",
+      "productPrice": 15.99
+    },
+    {
+      "productImage": "image-url-18.jpg",
+      "productName": "Product 18",
+      "productPrice": 20.00
+    },
+    {
+      "productImage": "image-url-19.jpg",
+      "productName": "Product 19",
+      "productPrice": 8.99
+    },
+    {
+      "productImage": "image-url-20.jpg",
+      "productName": "Product 20",
+      "productPrice": 17.25
+    }
+  ]
+  
