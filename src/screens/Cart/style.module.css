@@ -1,0 +1,85 @@
+.cartContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 20px;
+  }
+  
+  .cartTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .listContainer{
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.074) 0px 10px 36px 0px, rgba(138, 138, 138, 0) 0px 0px 0px 1px;
+  }
+  .listContainer h1,h2{
+    color:#939393;
+    text-align: center;
+  }
+  .cartItemList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  
+  .priceContainer{
+    width: 30rem;
+    background-color: white;
+    border-radius: 50px;
+    font-family: 'Inder', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  .priceContainer{
+    height: fit-content;
+  }
+  .priceContainer h2{
+    font-size: 2em;
+    margin: 10px;
+    font-weight: 100;
+    color: #939393;
+  }
+  .priceContainer hr{
+    color: rgb(0, 0, 0);
+    width: 100%;
+  }
+  .couponContainer{
+    position: relative;
+  }
+  #couponInput{
+    font-size: 1.5em;
+    font-family: inherit;
+    width: 100%;
+    border-radius: 9px;
+    border:1px solid #FF7373;
+    padding: 8px;
+  }
+  #applyButton{
+    position: absolute;
+    right: 0;
+    top: 0.75em;
+    font-size: 1.1em;
+    border:none;
+    border-radius: 3px;
+    background-color: transparent;
+    color:#FF7373;
+    transition-duration: 200ms;
+  }
+  #applyButton:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #FF7373;
+  }
+  #applyButton:active{
+    cursor: pointer;
+  }
+  .cartTotal {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
