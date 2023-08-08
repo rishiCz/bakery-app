@@ -51,22 +51,4 @@
     font-size: 1.3rem;
   }
   
-  .addToCartButton {
-    height: fit-content;
-    background-color: transparent;
-    border: 2px solid #FF7373;
-    color: #fff;
-    border-radius: 5px;
-    padding: 0.37rem 0.9rem;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
   
-  .addToCartButton:hover {
-    background-color: #FF7373;
-  }
-    
-  .addToCartButton:active {
-    background-color: rgba(225, 101, 101, 0.473);
-  }
