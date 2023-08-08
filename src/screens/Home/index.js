@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <>
       <h1 id={styles.title}>My Bakery</h1>
-      <h2 id={styles.itemHeading}>☺All Items</h2>
+      <h2 id={styles.itemHeading}>All Items</h2>
       <hr id={styles.itemHr} />
     </>
   );
