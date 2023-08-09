@@ -1,104 +1,123 @@
-
 [
-    {
-      "productImage": "https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_1000/74421_belgium-chocolate-truffle-cake.jpeg",
-      "productName": "Square Choco",
-      "productPrice": 10.99
-    },
-    {
-      "productImage": "https://sallysbakingaddiction.com/wp-content/uploads/2013/04/triple-chocolate-cake-4.jpg",
-      "productName": "Chocolate cake",
-      "productPrice": 19.99
-    },
-    {
-      "productImage": "https://imgcdn.floweraura.com/hearty-anniversary-cake-9831540ca-A_0.jpg",
-      "productName": "Heart Dark Cake",
-      "productPrice": 7.49
-    },
-    {
-      "productImage": "https://thefirstyearblog.com/wp-content/uploads/2015/11/chocolate-chocolate-cake-1.png",
-      "productName": "Choco Castle",
-      "productPrice": 14.95
-    },
-    {
-      "productImage": "https://pic.warmoven.in/catalog/product/cache/4e14bcb566d25893ae7201d4dbdc22fd/image/22488f4e/oreo-cake.jpg",
-      "productName": "Oreo Cake",
-      "productPrice": 29.99
-    },
-    {
-      "productImage": "https://insanelygoodrecipes.com/wp-content/uploads/2022/05/Sweet-Homemade-Chocolate-Ice-Cream-Cake-500x500.jpg",
-      "productName": "Oreo Nuts Cake",
-      "productPrice": 5.99
-    },
-    {
-      "productImage": "https://img.cake24x7.com/writable/apps/cake24x7/ProductGallery/5757/Everything-Is-Chocolate-Cake.jpg",
-      "productName": "Chocolate Bar Cake",
-      "productPrice": 8.75
-    },
-    {
-      "productImage": "https://bakewithshivesh.com/wp-content/uploads/2021/07/IMG_0745-scaled.jpg",
-      "productName": "Vanilla Cherry",
-      "productPrice": 12.50
-    },
-    {
-      "productImage": "https://veenaazmanov.com/wp-content/uploads/2020/01/Mille-Feuille-Napoleon-Dessert1.jpg",
-      "productName": "BlueBerry Pastry",
-      "productPrice": 16.99
-    },
-    {
-      "productImage": "https://cremecastle.in/cdn/shop/products/D0014_1.jpg?v=1670470891&width=1100",
-      "productName": "Quad Pie",
-      "productPrice": 22.00
-    },
-    {
-      "productImage": "https://cakehouseonline.com/wp-content/uploads/2019/09/Fascinating-Red-Velvet-Cake.jpeg",
-      "productName": "Red Velvet",
-      "productPrice": 9.99
-    },
-    {
-      "productImage": "https://www.fnp.com/images/pr/l/v20220202161528/valentine-s-heart-red-velvet-cake-half-kg_1.jpg",
-      "productName": "Heart velvet",
-      "productPrice": 18.49
-    },
-    {
-      "productImage": "https://celebratingsweets.com/wp-content/uploads/2023/05/Small-Batch-Vanilla-Cupcakes-9.jpg",
-      "productName": "Vanilla Cup",
-      "productPrice": 13.75
-    },
-    {
-      "productImage": "https://sugargeekshow.com/wp-content/uploads/2022/09/1200chocolate_cupcakes_featured-2-.jpg",
-      "productName": "Choco Cup",
-      "productPrice": 24.95
-    },
-    {
-      "productImage": "https://handletheheat.com/wp-content/uploads/2016/02/best-chocolate-cupcakes-recipe-SQUARE.jpg",
-      "productName": "Dark Choco Cup",
-      "productPrice": 6.50
-    },
-    {
-      "productImage": "https://preppykitchen.com/wp-content/uploads/2021/07/Ice-Cream-Cake-Recipe.jpg",
-      "productName": "Ice Cream Brownie",
-      "productPrice": 11.25
-    },
-    {
-      "productImage": "https://www.elloras.in/cdn/shop/products/18CreamRoll02.jpg?v=1661011544",
-      "productName": "Cream Rolls(5)",
-      "productPrice": 15.99
-    },
-    {
-      "productImage": "https://preppykitchen.com/wp-content/uploads/2017/09/Cream-Puff-Recipe.jpg",
-      "productName": "Cream Puff",
-      "productPrice": 3.00
-    },
-    {
-      "productImage": "https://www.allrecipes.com/thmb/lkmpKIBFPRbfATPBoR8E57KimqM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/45921-crispy-and-creamy-doughnuts-DDMFS-4x3-4266734872014eeebaeddbe56452e18d.jpg",
-      "productName": "Glaze Donut",
-      "productPrice": 8.99
-    },
-    {
-      "productImage": "https://www.mybakingaddiction.com/wp-content/uploads/2014/09/sprinkle-topped-chocolate-donuts-hero-540x720.jpg",
-      "productName": "Choco Donut",
-      "productPrice": 17.25
-    }
-  ]
-  
+  {
+    "productImage": "https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_1000/74421_belgium-chocolate-truffle-cake.jpeg",
+    "productName": "Square Choco",
+    "productDescription": "A delightful square-shaped chocolate cake.",
+    "productPrice": 10.99
+  },
+  {
+    "productImage": "https://sallysbakingaddiction.com/wp-content/uploads/2013/04/triple-chocolate-cake-4.jpg",
+    "productName": "Chocolate Cake",
+    "productDescription": "A classic chocolate cake, rich and indulgent.",
+    "productPrice": 19.99
+  },
+  {
+    "productImage": "https://imgcdn.floweraura.com/hearty-anniversary-cake-9831540ca-A_0.jpg",
+    "productName": "Heart Dark Cake",
+    "productDescription": "A heart-shaped dark cake, perfect for special occasions.",
+    "productPrice": 7.49
+  },
+  {
+    "productImage": "https://thefirstyearblog.com/wp-content/uploads/2015/11/chocolate-chocolate-cake-1.png",
+    "productName": "Choco Castle",
+    "productDescription": "Indulge in the chocolate paradise of Choco Castle.",
+    "productPrice": 14.95
+  },
+  {
+    "productImage": "https://pic.warmoven.in/catalog/product/cache/4e14bcb566d25893ae7201d4dbdc22fd/image/22488f4e/oreo-cake.jpg",
+    "productName": "Oreo Cake",
+    "productDescription": "Layers of Oreo goodness in a delectable cake.",
+    "productPrice": 29.99
+  },
+  {
+    "productImage": "https://insanelygoodrecipes.com/wp-content/uploads/2022/05/Sweet-Homemade-Chocolate-Ice-Cream-Cake-500x500.jpg",
+    "productName": "Oreo Nuts Cake",
+    "productDescription": "A fusion of Oreo and nuts for a delightful treat.",
+    "productPrice": 5.99
+  },
+  {
+    "productImage": "https://img.cake24x7.com/writable/apps/cake24x7/ProductGallery/5757/Everything-Is-Chocolate-Cake.jpg",
+    "productName": "Chocolate Bar Cake",
+    "productDescription": "A cake resembling a chocolate bar, a treat for chocolate lovers.",
+    "productPrice": 8.75
+  },
+  {
+    "productImage": "https://bakewithshivesh.com/wp-content/uploads/2021/07/IMG_0745-scaled.jpg",
+    "productName": "Vanilla Cherry",
+    "productDescription": "A vanilla cake adorned with delicious cherries.",
+    "productPrice": 12.50
+  },
+  {
+    "productImage": "https://veenaazmanov.com/wp-content/uploads/2020/01/Mille-Feuille-Napoleon-Dessert1.jpg",
+    "productName": "BlueBerry Pastry",
+    "productDescription": "A flaky pastry filled with luscious blueberries.",
+    "productPrice": 16.99
+  },
+  {
+    "productImage": "https://cremecastle.in/cdn/shop/products/D0014_1.jpg?v=1670470891&width=1100",
+    "productName": "Quad Pie",
+    "productDescription": "A pie with four delightful flavors in one.",
+    "productPrice": 22.00
+  },
+  {
+    "productImage": "https://cakehouseonline.com/wp-content/uploads/2019/09/Fascinating-Red-Velvet-Cake.jpeg",
+    "productName": "Red Velvet",
+    "productDescription": "A classic red velvet cake with cream cheese frosting.",
+    "productPrice": 9.99
+  },
+  {
+    "productImage": "https://www.fnp.com/images/pr/l/v20220202161528/valentine-s-heart-red-velvet-cake-half-kg_1.jpg",
+    "productName": "Heart Velvet",
+    "productDescription": "A heart-shaped red velvet cake, perfect for romance.",
+    "productPrice": 18.49
+  },
+  {
+    "productImage": "https://celebratingsweets.com/wp-content/uploads/2023/05/Small-Batch-Vanilla-Cupcakes-9.jpg",
+    "productName": "Vanilla Cup",
+    "productDescription": "Individual vanilla cupcakes, perfect for a sweet treat.",
+    "productPrice": 13.75
+  },
+  {
+    "productImage": "https://sugargeekshow.com/wp-content/uploads/2022/09/1200chocolate_cupcakes_featured-2-.jpg",
+    "productName": "Choco Cup",
+    "productDescription": "Decadent chocolate cupcakes that melt in your mouth.",
+    "productPrice": 24.95
+  },
+  {
+    "productImage": "https://handletheheat.com/wp-content/uploads/2016/02/best-chocolate-cupcakes-recipe-SQUARE.jpg",
+    "productName": "Dark Choco Cup",
+    "productDescription": "Rich and dark chocolate cupcakes for intense flavor.",
+    "productPrice": 6.50
+  },
+  {
+    "productImage": "https://preppykitchen.com/wp-content/uploads/2021/07/Ice-Cream-Cake-Recipe.jpg",
+    "productName": "Ice Cream Brownie",
+    "productDescription": "A combination of ice cream and brownie, a delightful dessert.",
+    "productPrice": 11.25
+  },
+  {
+    "productImage": "https://www.elloras.in/cdn/shop/products/18CreamRoll02.jpg?v=1661011544",
+    "productName": "Cream Rolls(5)",
+    "productDescription": "A pack of five cream-filled rolls for a delightful snack.",
+    "productPrice": 15.99
+  },
+  {
+    "productImage": "https://preppykitchen.com/wp-content/uploads/2017/09/Cream-Puff-Recipe.jpg",
+    "productName": "Cream Puff",
+    "productDescription": "Light and airy cream puffs, a delightful treat.",
+    "productPrice": 3.00
+  },
+  {
+    "productImage": "https://www.allrecipes.com/thmb/lkmpKIBFPRbfATPBoR8E57KimqM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/45921-crispy-and-creamy-doughnuts-DDMFS-4x3-4266734872014eeebaeddbe56452e18d.jpg",
+    "productName": "Glaze Donut",
+    "productDescription": "A glazed donut with a perfect balance of sweetness.",
+    "productPrice": 8.99
+  },
+  {
+    "productImage": "https://www.mybakingaddiction.com/wp-content/uploads/2014/09/sprinkle-topped-chocolate-donuts-hero-540x720.jpg",
+    "productName": "Choco Donut",
+    "productDescription": "Indulge in the rich chocolate goodness of a choco donut.",
+    "productPrice": 17.25
+  }
+]
+

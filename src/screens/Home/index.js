@@ -20,7 +20,6 @@ const Home = () => {
     dispatch(updateSearchValue(query));
   };
   const filteredProductList = useSelector(selectFilteredProductList);
-
   return (
     <>
       {CartIcon()}
@@ -36,13 +35,14 @@ const Home = () => {
       </div>
       <hr id={styles.itemHr} />
       <div className={styles.productList}>
-        {filteredProductList.map((product) => (
+        {filteredProductList.map((item) => (
           <ProductCard
-            key={product.id}
-            id={product.id}
-            image={product.productImage}
-            name={product.productName}
-            price={product.productPrice}
+            key={item.id}
+            id={item.id}
+            image={item.productImage}
+            name={item.productName}
+            description={item.productDescription}
+            price={item.productPrice}
           />
         ))}
       </div>

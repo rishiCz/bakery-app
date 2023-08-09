@@ -10,6 +10,20 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #fff;
   }
+  .productCard h4{
+    padding: 0 10px;
+    text-align: start;
+    height: 0px;
+    margin: 0;
+    margin-Bottom: 5px;
+    transition-duration: 500ms;
+    color: transparent;
+  }
+  .productCard:hover h4{
+    height: 50px;
+    transition-duration: 500ms;
+    color: #ecececce;
+  }
 
   .detailsBackground{
     position: absolute;
@@ -17,15 +31,14 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 90%;
-    height: 30%;
-    padding: 5%;
+    height: fit-content;
+    padding: 0 5%;
     border-bottom-right-radius: inherit;
     border-bottom-left-radius: inherit;
     bottom: 0px;
     background: linear-gradient(to top, #000000, #ffffff00);
     color: #fff;
   }
-  
   .productImage {
     border-radius: inherit;
     width: 100%;
@@ -35,8 +48,8 @@
   
   .productName {
     flex-basis: 100%;
+    margin: 0;
     margin-top: 11%;
-    margin-bottom: 0.26rem;
     font-size: 1.25rem;
   }
 
