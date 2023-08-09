@@ -51,53 +51,53 @@
       "productPrice": 22.00
     },
     {
-      "productImage": "image-url-11.jpg",
-      "productName": "Product 11",
+      "productImage": "https://cakehouseonline.com/wp-content/uploads/2019/09/Fascinating-Red-Velvet-Cake.jpeg",
+      "productName": "Red Velvet",
       "productPrice": 9.99
     },
     {
-      "productImage": "image-url-12.jpg",
-      "productName": "Product 12",
+      "productImage": "https://www.fnp.com/images/pr/l/v20220202161528/valentine-s-heart-red-velvet-cake-half-kg_1.jpg",
+      "productName": "Heart velvet",
       "productPrice": 18.49
     },
     {
-      "productImage": "image-url-13.jpg",
-      "productName": "Product 13",
+      "productImage": "https://celebratingsweets.com/wp-content/uploads/2023/05/Small-Batch-Vanilla-Cupcakes-9.jpg",
+      "productName": "Vanilla Cup",
       "productPrice": 13.75
     },
     {
-      "productImage": "image-url-14.jpg",
-      "productName": "Product 14",
+      "productImage": "https://sugargeekshow.com/wp-content/uploads/2022/09/1200chocolate_cupcakes_featured-2-.jpg",
+      "productName": "Choco Cup",
       "productPrice": 24.95
     },
     {
-      "productImage": "image-url-15.jpg",
-      "productName": "Product 15",
+      "productImage": "https://handletheheat.com/wp-content/uploads/2016/02/best-chocolate-cupcakes-recipe-SQUARE.jpg",
+      "productName": "Dark Choco Cup",
       "productPrice": 6.50
     },
     {
-      "productImage": "image-url-16.jpg",
-      "productName": "Product 16",
+      "productImage": "https://preppykitchen.com/wp-content/uploads/2021/07/Ice-Cream-Cake-Recipe.jpg",
+      "productName": "Ice Cream Brownie",
       "productPrice": 11.25
     },
     {
-      "productImage": "image-url-17.jpg",
-      "productName": "Product 17",
+      "productImage": "https://www.elloras.in/cdn/shop/products/18CreamRoll02.jpg?v=1661011544",
+      "productName": "Cream Rolls(5)",
       "productPrice": 15.99
     },
     {
-      "productImage": "image-url-18.jpg",
-      "productName": "Product 18",
-      "productPrice": 20.00
+      "productImage": "https://preppykitchen.com/wp-content/uploads/2017/09/Cream-Puff-Recipe.jpg",
+      "productName": "Cream Puff",
+      "productPrice": 3.00
     },
     {
-      "productImage": "image-url-19.jpg",
-      "productName": "Product 19",
+      "productImage": "https://www.allrecipes.com/thmb/lkmpKIBFPRbfATPBoR8E57KimqM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/45921-crispy-and-creamy-doughnuts-DDMFS-4x3-4266734872014eeebaeddbe56452e18d.jpg",
+      "productName": "Glaze Donut",
       "productPrice": 8.99
     },
     {
-      "productImage": "image-url-20.jpg",
-      "productName": "Product 20",
+      "productImage": "https://www.mybakingaddiction.com/wp-content/uploads/2014/09/sprinkle-topped-chocolate-donuts-hero-540x720.jpg",
+      "productName": "Choco Donut",
       "productPrice": 17.25
     }
   ]
