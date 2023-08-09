@@ -19,7 +19,7 @@ const Header = () => {
 const CartList = (cart) => {
   const cartProduct = cart.cartProducts;
   const length = cartProduct.length;
-  if (length == 0) {
+  if (length === 0) {
     return (
       <div className={cartStyles.listContainer}>
         <h1>Your Cart is Empty!</h1>
@@ -47,7 +47,7 @@ const priceContainer = (cart) => {
   const cartProduct = cart.cartProducts;
   const totalPrice = cart.totalCost.toFixed(2);
   const length = cartProduct.length;
-  if (length == 0) {
+  if (length === 0) {
     return;
   } else {
     return (

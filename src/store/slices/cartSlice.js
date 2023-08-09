@@ -15,15 +15,6 @@ export const cart = createSlice({
   name: "cart",
   initialState,
   reducers: {
-    addGivenQuantity: (state, action) => {
-      const itemInCart = findItemInCart(state.cartProducts, action.payload.id);
-      if (itemInCart) {
-        itemInCart.quantity = action.payload.quantity;
-        state.totalCost += action.payload.price * action.payload.quantity;
-        addPriceToStorage(state.totalCost);
-      }
-    },
-
     addToCart: (state, action) => {
       const itemInCart = findItemInCart(state.cartProducts, action.payload.id);
       if (itemInCart) {

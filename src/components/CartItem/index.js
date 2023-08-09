@@ -2,15 +2,15 @@ import styles from "./style.module.css";
 import { useDispatch } from "react-redux";
 import { removeItem } from "../../store/slices/cartSlice";
 import { FaTrash } from "react-icons/fa";
-import QuantitySelector from '../QuantitySelector';
+import QuantitySelector from "../QuantitySelector";
 
 const CartItem = (props) => {
-  const product = {...props};
+  const product = { ...props };
   const dispatch = useDispatch();
-  const deleteButtonClick = () =>{
-    console.log(props)
+  const deleteButtonClick = () => {
+    console.log(props);
     dispatch(removeItem(props));
-  }
+  };
   return (
     <div className={styles.productCard}>
       <img
@@ -22,12 +22,15 @@ const CartItem = (props) => {
         <h3 className={styles.productName}>{product.name}</h3>
         <p className={styles.productPrice}>${product.price}</p>
         <div className={styles.quantitySelectorHolder}>
-          <QuantitySelector product ={product}/>
+          <QuantitySelector product={product} />
         </div>
-        <p className={styles.totalPrice}>${(product.quantity * product.price).toFixed(2)}</p>
+        <p className={styles.totalPrice}>
+          ${(product.quantity * product.price).toFixed(2)}
+        </p>
       </div>
       <button className={styles.deleteButton} onClick={deleteButtonClick}>
-        <FaTrash/> Delete</button>
+        <FaTrash /> Delete
+      </button>
     </div>
   );
 };
