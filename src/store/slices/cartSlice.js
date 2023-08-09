@@ -8,7 +8,7 @@ import {
 } from "../../utils/functions";
 
 const initialState = {
-  cartProducts: getListFromListStorage(),
+  cartProducts: getListFromListStorage() || [],
   totalCost: getPriceFromStorage() || 0,
 };
 export const cart = createSlice({
@@ -20,7 +20,7 @@ export const cart = createSlice({
       if (itemInCart) {
         itemInCart.quantity++;
       } else {
-        state.cartProducts.push({ product: action.payload, quantity: 1 });
+        state.cartProducts.push({ product: action.payload, quantity: 1});
       }
 
       state.totalCost += action.payload.price;

@@ -5,11 +5,10 @@ import { FaTrash } from "react-icons/fa";
 import QuantitySelector from "../QuantitySelector";
 
 const CartItem = (props) => {
-  const product = { ...props };
+  const product = {...props };
   const dispatch = useDispatch();
   const deleteButtonClick = () => {
-    console.log(props);
-    dispatch(removeItem(props));
+    dispatch(removeItem(product));
   };
   return (
     <div className={styles.productCard}>
