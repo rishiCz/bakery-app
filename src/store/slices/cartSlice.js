@@ -11,23 +11,16 @@ export const cart = createSlice({
   initialState,
   reducers: {
     addGivenQuantity: (state, action) => {
-      const itemInCart = findItemInCart(
-        state.cartProducts,
-        action.payload.id
-      );
+      const itemInCart = findItemInCart(state.cartProducts, action.payload.id);
 
       if (itemInCart) {
         itemInCart.quantity = action.payload.quantity;
-        state.totalCost +=
-          action.payload.price * action.payload.quantity;
+        state.totalCost += action.payload.price * action.payload.quantity;
       }
     },
 
     addToCart: (state, action) => {
-      const itemInCart = findItemInCart(
-        state.cartProducts,
-        action.payload.id
-      );
+      const itemInCart = findItemInCart(state.cartProducts, action.payload.id);
 
       if (itemInCart) {
         itemInCart.quantity++;
