@@ -42,6 +42,7 @@ const CartList = (cart) => {
     );
   }
 };
+
 const priceContainer = (cart) => {
   const cartProduct = cart.cartProducts;
   const totalPrice = cart.totalCost.toFixed(2);
