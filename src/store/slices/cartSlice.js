@@ -1,27 +1,31 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { findItemInCart } from "../../utils/functions";
+import {
+  findItemInCart,
+  addListToListStorage,
+  getListFromListStorage,
+  addPriceToStorage,
+  getPriceFromStorage,
+} from "../../utils/functions";
 
 const initialState = {
-  cartProducts: [],
-  totalCost: 0,
+  cartProducts: getListFromListStorage(),
+  totalCost: getPriceFromStorage() || 0,
 };
-
 export const cart = createSlice({
   name: "cart",
   initialState,
   reducers: {
     addGivenQuantity: (state, action) => {
       const itemInCart = findItemInCart(state.cartProducts, action.payload.id);
-
       if (itemInCart) {
         itemInCart.quantity = action.payload.quantity;
         state.totalCost += action.payload.price * action.payload.quantity;
+        addPriceToStorage(state.totalCost);
       }
     },
 
     addToCart: (state, action) => {
       const itemInCart = findItemInCart(state.cartProducts, action.payload.id);
-
       if (itemInCart) {
         itemInCart.quantity++;
       } else {
@@ -29,6 +33,8 @@ export const cart = createSlice({
       }
 
       state.totalCost += action.payload.price;
+      addListToListStorage(state.cartProducts);
+      addPriceToStorage(state.totalCost);
     },
 
     decreaseQuantity: (state, action) => {
@@ -38,10 +44,8 @@ export const cart = createSlice({
         itemInCart.quantity--;
       }
       state.totalCost -= action.payload.price;
-    },
-    setDataFromLocal: (state, action) => {
-      state.cartProducts = action.payload.cartProducts;
-      state.totalCost = action.payload.totalCost;
+      addListToListStorage(state.cartProducts);
+      addPriceToStorage(state.totalCost);
     },
     removeItem: (state, action) => {
       const itemInCart = findItemInCart(state.cartProducts, action.payload.id);
@@ -56,6 +60,8 @@ export const cart = createSlice({
       });
 
       state.totalCost = totalCost;
+      addListToListStorage(state.cartProducts);
+      addPriceToStorage(state.totalCost);
     },
   },
 });
