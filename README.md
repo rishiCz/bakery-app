@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# My Bakery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to My Bakery, a delightful web application that showcases a wide variety of delectable bakery products. With an intuitive user interface, you can easily explore bakery selection, add items to your cart, and even customize quantities. The project features responsive design, seamless navigation, and efficient state management. Whether you're a bakery enthusiast, a developer looking to learn React, or simply craving some virtual treats, My Bakery has something sweet to offer.
+## Run Locally
 
-## Available Scripts
+1. Clone the project
 
-In the project directory, you can run:
+```bash
+  git clone https://github.com/rishiCz/bakery-app.git
+```
 
-### `npm start`
+2. Go to the project directory
+####
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cd to root folder containng **package.json**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Install dependencies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+  npm install
+```
 
-### `npm test`
+4. Start the server
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  npm start
+```
 
-### `npm run build`
+5. Open this link in browser
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  http://localhost:3000/
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Assignment Required Functionalities
+1. Contains a list of bakery products.
+2. Each product has a description and functionality to add and delete items from the cart.
+3. Added a checkout button that prints the items in the cart to the console.
+4. Implemented routes to home and cart pages with a functioning back button.
+5. Created responsive pages that work well across different browsers and devices.
+6. Utilized React Redux with a well-structured architecture for state management.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Assignment Optional Functionalities
+1. Implemented hover effects on cards to reveal descriptions.
+2. Added general hover effects to clickables to enhance visual appeal and responsiveness.
 
-### `npm run eject`
+## Additional Functionalities
+1. Included a search bar to filter through products.
+2. Provided the option to select the quantity of a product both from the home and cart pages.
+3. Displayed a price list at checkout for a last-minute review.
+## Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Client:** React, Redux, JavaScript, CSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Server:** Node
