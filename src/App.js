@@ -1,15 +1,15 @@
-import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Home } from './pages/Home'
-import { Cart } from './pages/Cart';
+import "./App.css";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Cart } from "./pages/Cart";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path = '/' element={<Home/>}/>
-        <Route path = '/cart' element={<Cart/>}/>
-        <Route path="*" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/cart" element={<Cart />} />
+        <Route exact path="*" element={<Home />} />
       </Routes>
     </Router>
   );
